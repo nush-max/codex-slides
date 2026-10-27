@@ -1,0 +1,21 @@
+{
+  "passed": [
+    "Self-contained document loaded via local HTTP, then network disabled; 16 slides; embedded fonts loaded",
+    "All 16 slides render without content extending beyond the canvas",
+    "Arrow, Space, Shift+Space, Page Up/Down and Home/End navigation",
+    "Overview opens, jumps to selected slide and closes",
+    "Lytic sequence advances, selected stage holds, replay resets, pause stops sequence",
+    "Speaker notes open with original content; modal prevents accidental slide navigation",
+    "Reduced motion keeps charts fully visible and disables cycle autoplay",
+    "Clinical chart animations finish; final geometry matches 144:47 and 1.9:2.7 exactly",
+    "Canvas scales within laptop, desktop and phone viewports",
+    "Deep links and reload preserve slide position",
+    "No JavaScript errors and zero external network requests",
+    "Fresh document runs with network disabled from the start, including embedded fonts and navigation",
+    "Every original speaker-note paragraph preserved verbatim in the separate notes",
+    "Original PowerPoint SHA-256 unchanged",
+    "Static PDF contains exactly 16 pages"
+  ],
+  "errors": [],
+  "network_requests": []
+}
